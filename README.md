@@ -1,4 +1,4 @@
-# TravellingSalesman
+# Travelling Salesman
 
 Suppose there are a number of "cities". The distance between any two cities is the standard Euclidean distance, that is, √((x1-x2)2+(y1-y2)2). A traveling salesman wishes to visit every city exactly once, then return to his starting point. (It doesn't matter what city is the starting point.) Such a path is called a circuit. However, the salesman also wishes to minimize the total distance that must be traveled.
 
@@ -8,7 +8,7 @@ The problem has been solved using "hill climbing" approach, where you start with
 
 ## Function Definitions 
 
-def read_cities(file_name):
+def read_cities(file_name): </br>
 Read in the cities from the given file_name, and return them as a list of four-tuples: [(state, city, latitude, longitude), ...] Use this as your initial road_map, that is, the cycle Alabama → Alaska → Arizona → ... → Wyoming → Alabama.
 
 def print_cities(road_map):
